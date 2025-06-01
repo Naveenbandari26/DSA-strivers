@@ -59,4 +59,49 @@ Sorting is the process of arranging data in a particular format — typically in
 
 ---
 
+# 🧬 Merge Sort
+
+This module contains an efficient implementation of **Merge Sort**, one of the most powerful and commonly used sorting algorithms based on the **Divide and Conquer** paradigm.
+
+---
+
+## 📖 What is Merge Sort?
+
+**Merge Sort** is a **recursive** algorithm that divides the array into halves, recursively sorts them, and then merges the sorted halves. It is a **stable** and **comparison-based** sorting algorithm.
+
+---
+
+## 🧠 How it Works
+
+1. **Divide** the array into two halves.
+2. **Conquer** by recursively sorting the two halves.
+3. **Combine** by merging the sorted halves into a final sorted array.
+
+---
+
+## 🔍 Time & Space Complexity
+
+| Case       | Time Complexity | Space Complexity |
+|------------|------------------|------------------|
+| Best       | O(n log n)       | O(n)             |
+| Average    | O(n log n)       | O(n)             |
+| Worst      | O(n log n)       | O(n)             |
+
+- **Stable**: ✅ Yes  
+- **In-place**: ❌ No (due to auxiliary space used during merging)
+
+---
+
+## ✅ When to Use
+
+- When stability matters
+- When dealing with large datasets
+- When guaranteed O(n log n) performance is needed
+- External sorting (merge sort is preferred when data doesn't fit into memory)
+
+---
+
+
+
+
 
