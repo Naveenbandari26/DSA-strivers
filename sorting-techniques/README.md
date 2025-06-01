@@ -1,4 +1,4 @@
-# 🔢 Sorting Algorithms Visualizer
+# 🔢 Sorting Algorithms
 
 This project demonstrates core **comparison-based sorting algorithms** — **Bubble Sort**, **Selection Sort**, **Insertion Sort**, **Merge Sort**, and **Quick Sort** — implemented using clean and beginner-friendly C++ code. This repository is ideal for those who are starting out with sorting techniques and want to understand the trade-offs in terms of performance, stability, and in-place sorting.
 
